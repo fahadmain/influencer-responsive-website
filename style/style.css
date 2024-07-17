@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+* {
+    margin: 10px auto;
+}
+
+/* nav style */
+
+.navbar {
+    width: 1450px;
+    height: 85px;
+    margin-bottom: 80px;
+
+}
+
+.nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+}
+
+.nav-options div {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.nav-options h3 {
+    color: rgb(58, 58, 58);
+    font-weight: 800;
+}
+
+.nav-options p {
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+}
+
+.nav-options div i {
+    margin-top: 17px;
+}
+
+/* banner style  */
+.banner-start {
+    width: 1450px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.banner-content {
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+.banner-content h1 {
+    font-size: 52px;
+    color: rgb(58, 58, 58);
+}
+
+.banner-content p {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+
+.banner-content button {
+    border-radius: 20px;
+    width: 160px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+}
+.banner-content button i {
+    margin-left: 5px;
+}
+
+.banner-img {
+    margin-right: 50px;
+}
