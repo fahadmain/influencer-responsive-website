@@ -42,7 +42,7 @@ body {
 }
 
 .nav-options div i {
-    margin-top: 17px;
+    margin-top: 16px;
 }
 
 /* banner style  */
@@ -78,10 +78,77 @@ body {
     background-color: rgb(224, 44, 109);
     color: rgb(255, 255, 255);
 }
+
 .banner-content button i {
     margin-left: 5px;
 }
 
 .banner-img {
     margin-right: 50px;
+}
+
+/* amazon style */
+
+.amazon-container {
+    width: 1250px;
+    height: 80px;
+    margin-bottom: 100px;
+}
+
+.amazon-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.amazon-content img {
+    height: 30px;
+    width: 60px;
+
+}
+
+/* popular section style */
+
+.popular-container {
+    width: 1250px;
+    border: 2px solid red;
+    margin-bottom: 100px;
+
+}
+
+.popular-container>h3 {
+    color: rgb(58, 58, 58);
+    text-align: center;
+    font-size: 28px;
+}
+
+.flex-tripod {
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.checked {
+    color: rgb(251, 130, 0);
+}
+
+.flex-p-1 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.flex-p-2 {
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+.popular-content {
+    display: flex;
+    padding-left: 30px;
 }
